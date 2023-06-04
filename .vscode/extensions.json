@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ritwickdey.liveserver",
+        "yzhang.markdown-all-in-one",
+        "esbenp.prettier-vscode",
+        "sonarsource.sonarlint-vscode",
+        "mhutchie.git-graph",
+        "vsls-contrib.codetour",
+        "seatonjiang.gitmoji-vscode",
+        "oderwat.indent-rainbow",
+        "pkief.material-icon-theme"
+    ]
+}
