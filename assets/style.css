@@ -83,6 +83,19 @@ main {
 section {
     margin: 1rem 0;
 }
+.crypto_card {
+    background: var(--dark);
+    border: 1px solid var(--purple);
+    border-radius: .75vw;
+    padding: 1rem;
+    box-shadow: 0 0 20px rgba(0,0,0,.25);
+}
+.crypto_card_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 0;
+}
 
 /* Footer */
 footer {
