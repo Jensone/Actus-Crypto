@@ -1,4 +1,4 @@
-# Projet frontend - Actus Crypto
+# Solution - Actus Crypto
 
 ![Actus Crypto](assets/img/logo-dark.png)
 
