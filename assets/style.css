@@ -19,6 +19,7 @@
 /* Fonts */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Eingrantch Mono', sans-serif;
+    line-height: 2.5;
     color: var(--light);
 }
 a {
@@ -87,7 +88,7 @@ section {
     background: var(--dark);
     border: 1px solid var(--purple);
     border-radius: .75vw;
-    padding: 1rem;
+    padding: 0 1rem;
     box-shadow: 0 0 20px rgba(0,0,0,.25);
 }
 .crypto_card_content {
