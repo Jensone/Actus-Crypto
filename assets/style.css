@@ -1,0 +1,96 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Variables */
+:root {
+    --dark: #0d1216;
+    --light: #ffffff;
+    --purple-dark: #000719;
+    --purple: #8b3dff;
+    --purple-light: #c980b6;
+}
+
+/* Fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Eingrantch Mono', sans-serif;
+    color: var(--light);
+}
+a {
+    color: var(--light);
+}
+a:hover {
+    color: var(--purple-light);
+}
+
+/* Body */
+body {
+    height: 100vh;
+    font-family: 'g Gerhana Matahari', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--light);
+    background: rgb(0,7,25);
+    background: linear-gradient(45deg, rgba(0,7,25,1) 0%, rgba(37,3,88,1) 50%, rgba(0,7,25,1) 100%);
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+nav img {
+    width: 150px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: medium;
+}
+nav details {
+    cursor: pointer;
+}
+nav details summary:hover {
+    color: var(--purple-light);
+}
+nav details ul {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    width: 150px;
+    margin-top: .5em;
+    padding: .5em;
+    position: absolute;
+    background: var(--light);
+    box-shadow: 0 0 20px rgba(0,0,0,.25);
+    border-radius: .75vw;
+    gap: .5rem;
+}
+nav details ul li a {
+    color: var(--purple-dark);
+}
+
+/* Main */
+main {
+    padding: 2rem;
+}
+section {
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid rgba(255,255,255,.25);
+    padding: .5rem;
+    text-align: center;
+}
+footer a img {
+    width: 100px;
+    padding-top: 1rem;
+}
