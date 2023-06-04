@@ -25,9 +25,9 @@ Ce projet fait partie de la formation Agiliteach "Développement Web Moderne ave
 git clone https://github.com/Jensone/Actus-Crypto.git
 ```
 
-1. Installer les extensions recommandées pour le projet, elle sont automatiquement détectées par VSCode et vous pouvez les installer en cliquant sur le bouton "Install All" qui s'affiche en bas à droite de votre écran.
+2. Installer les extensions recommandées pour le projet, elle sont automatiquement détectées par VSCode et vous pouvez les installer en cliquant sur le bouton "Install All" qui s'affiche en bas à droite de votre écran.
 
-2. Ouvrir le fichier index.html dans votre navigateur avec l'extension **Live Server** de [Ritwick Dey](https://ritwickdey.github.io/vscode-live-server/) ou **Live Preview** de [Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server).
+3. Ouvrir le fichier index.html dans votre navigateur avec l'extension **Live Server** de [Ritwick Dey](https://ritwickdey.github.io/vscode-live-server/) ou **Live Preview** de [Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server).
 
 ---
 ![Agiliteach](https://cdn.agiliteach.org/medias/images/github-at-.gif)
