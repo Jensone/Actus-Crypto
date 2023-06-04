@@ -59,7 +59,7 @@ nav img {
 }
 nav ul {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 2rem;
     font-size: medium;
 }
@@ -103,7 +103,7 @@ section {
 }
 .crypto_card li {
     background: var(--dark);
-    border: 1px solid var(--purple);
+    border: 2px solid rgba(255,255,255,.15);
     border-radius: .75vw;
     padding: 0 1rem;
     width: 350px;
