@@ -38,15 +38,22 @@ button {
     font-family: 'Eingrantch Mono', sans-serif;
 }
 
-/* Body */
+/* Body & Container */
 body {
     height: 100vh;
     font-family: 'g Gerhana Matahari', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     color: var(--light);
-    background: rgb(0,7,25);
-    background: linear-gradient(45deg, rgba(0,7,25,1) 0%, rgba(37,3,88,1) 50%, rgba(0,7,25,1) 100%);
+    background: #000719;
+    background-image: url('./img/circuit-top.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.container {
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(0,7,25,.96), rgba(37,3,88,.96), rgba(0,7,25,.96));
 }
 
 /* Navigation */
@@ -126,4 +133,34 @@ footer {
 footer a img {
     width: 100px;
     padding-top: 1rem;
+}
+.icon_footer {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    padding: 1rem 0 0 1rem;
+    background-color: var(--light);
+    border-radius: 200px 0 0 0;
+}
+.icon_footer img {
+    width: 70px;
+    transition: all 500ms ease-in-out;
+}
+.icon_footer img:hover {
+    animation: pulse 500ms infinite;
+}
+
+/* Animation pulse */
+@keyframes pulse {
+    0% {
+        transform: scale(.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(.9);
+    }
 }
