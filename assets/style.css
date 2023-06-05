@@ -37,6 +37,12 @@ button {
     padding: .5rem 1rem;
     font-family: 'Eingrantch Mono', sans-serif;
 }
+.text-center {
+    text-align: center;
+}
+.pb-1 {
+    padding-bottom: 1rem;
+}
 
 /* Body & Container */
 body {
@@ -143,6 +149,7 @@ footer a img {
     padding: 1rem 0 0 1rem;
     background-color: var(--light);
     border-radius: 200px 0 0 0;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.6);
 }
 .icon_footer img {
     width: 70px;
